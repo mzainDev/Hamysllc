@@ -1,9 +1,9 @@
 "use client"
-import ExportedImage from "next-image-export-optimizer";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { ShoppingCart } from "lucide-react";
 import { products } from "@/app/data/productsdata";
+import Image from "next/image";
 
 export default function OurProduct() {
     return (
@@ -21,12 +21,13 @@ export default function OurProduct() {
                         >
                             {/* Image with overlay on hover */}
                             <div className="relative w-full h-44 sm:h-48 md:h-52 lg:h-56 group">
-                                <ExportedImage
+                                <Image
                                     src={p.image}
                                     alt={p.name}
                                     fill
                                     className="object-cover"
                                     sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                                    priority={p.id <= 4}
                                 />
                                 <div className="absolute inset-0 bg-[#1a2b47]/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                                     <Link href={`/product/${p.id}`}>

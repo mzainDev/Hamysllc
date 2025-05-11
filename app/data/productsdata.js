@@ -273,7 +273,7 @@ export const products = [
   },
   {
     id: 31,
-    name: "Tomoto Souvenir",  
+    name: "Tomoto Souvenir",
     price: "$20",
     image: "/image/31.jpg",
     tag: null,
