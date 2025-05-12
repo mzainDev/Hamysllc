@@ -36,7 +36,7 @@ const TopBar = () => {
                         <div className="flex items-center mr-4">
                             <Clock size={14} className="text-[#64b5f6] mr-2" />
                             <span className="text-gray-400">
-                                Mon to Sat: 9am - 5pm
+                                Monday to Friday: 9am - 5pm
                             </span>
                         </div>
 

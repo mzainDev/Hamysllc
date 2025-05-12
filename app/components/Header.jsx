@@ -60,11 +60,11 @@ const Header = () => {
             <button className="text-white hover:text-[#64b5f6] transition-colors">
               <Search size={20} />
             </button>
-            <Link href="/account" className="text-white hover:text-[#64b5f6] transition-colors">
+            <Link href="/" className="text-white hover:text-[#64b5f6] transition-colors">
               <User size={20} />
             </Link>
             <Link
-              href="/cart"
+              href="/"
               className="flex items-center justify-center bg-[#64b5f6] text-white p-2 rounded-full relative hover:bg-[#3b82f6] transition-colors"
             >
               <ShoppingCart size={20} />
@@ -104,13 +104,6 @@ const Header = () => {
               onClick={() => setMenuOpen(false)}
             >
               Products
-            </Link>
-            <Link
-              href="/categories"
-              className="text-white font-medium hover:text-[#64b5f6] transition-colors py-2"
-              onClick={() => setMenuOpen(false)}
-            >
-              Categories
             </Link>
             <Link
               href="/about"

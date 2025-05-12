@@ -22,16 +22,7 @@ const ContactForm = () => {
                             <div>
                                 <h4 className="font-semibold text-white">Address</h4>
                                 <p className="text-gray-300">
-                                    432 Doris St, bronx, New York, 10462 UNITED STATE
-                                </p>
-                            </div>
-                        </div>
-                        <div className="flex items-start gap-4">
-                            <Phone className="h-6 w-6 text-[#93c5fd]" />
-                            <div>
-                                <h4 className="font-semibold text-white">Phone</h4>
-                                <p className="text-gray-300">
-                                    Mobile: 929-756-9365 <br />
+                                    1432 Doris St, bronx, New York, 10462 UNITED STATE
                                 </p>
                             </div>
                         </div>
@@ -45,12 +36,22 @@ const ContactForm = () => {
                             </div>
                         </div>
                         <div className="flex items-start gap-4">
+                            <Phone className="h-6 w-6 text-[#93c5fd]" />
+                            <div>
+                                <h4 className="font-semibold text-white">Phone</h4>
+                                <p className="text-gray-300">
+                                    Mobile: 929-756-9365 <br />
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div className="flex items-start gap-4">
                             <Mail className="h-6 w-6 text-[#93c5fd]" />
                             <div>
                                 <h4 className="font-semibold text-white">Working Time</h4>
                                 <p className="text-gray-300">
-                                    Monday-Friday: 9am - 5pm <br />
-                                    Saturday-Sunday: OFF
+                                    Monday to Friday: 9am - 5pm <br />
+                                    Saturday to Sunday: OFF
                                 </p>
                             </div>
                         </div>

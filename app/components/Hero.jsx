@@ -46,7 +46,7 @@ const Hero = () => {
                                 Products
                             </a>
                             <a
-                                href="./categories"
+                                href="./product"
                                 className="px-6 py-3 bg-[#64b5f6] text-white font-bold rounded-lg hover:bg-[#3b82f6] transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                             >
                                 Shop Now

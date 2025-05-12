@@ -108,24 +108,6 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <Link
-                  href="/categories/electronics"
-                  className="text-gray-300 hover:text-white transition-colors flex items-center"
-                >
-                  <ArrowRight size={14} className="mr-2 text-[#64b5f6]" />
-                  Electronics
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/categories/apparel"
-                  className="text-gray-300 hover:text-white transition-colors flex items-center"
-                >
-                  <ArrowRight size={14} className="mr-2 text-[#64b5f6]" />
-                  Apparel
-                </Link>
-              </li>
-              <li>
-                <Link
                   href="/categories/home"
                   className="text-gray-300 hover:text-white transition-colors flex items-center"
                 >
@@ -142,15 +124,7 @@ const Footer = () => {
                   Beauty & Health
                 </Link>
               </li>
-              <li>
-                <Link
-                  href="/categories/accessories"
-                  className="text-gray-300 hover:text-white transition-colors flex items-center"
-                >
-                  <ArrowRight size={14} className="mr-2 text-[#64b5f6]" />
-                  Accessories
-                </Link>
-              </li>
+
             </ul>
           </div>
 
