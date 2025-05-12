@@ -12,21 +12,21 @@ const TopBar = () => {
                         <div className="flex items-center group">
                             <Mail size={14} className="text-[#64b5f6] mr-2" />
                             <Link href="mailto:info@hamysllc.com" className="text-gray-300 hover:text-white transition-colors">
-                                info@hamysllc.com
+                                SALES@HAMYSLLCWHOLESALE.COM
                             </Link>
                         </div>
 
                         <div className="flex items-center group">
                             <PhoneCall size={14} className="text-[#64b5f6] mr-2" />
                             <Link href="tel:+817-986-9786" className="text-gray-300 hover:text-white transition-colors">
-                                817-986-9786
+                                929-756-9365
                             </Link>
                         </div>
 
                         <div className="flex items-center group">
                             <MapPin size={14} className="text-[#64b5f6] mr-2" />
                             <span className="text-gray-400">
-                                Fort Worth, TX
+                                Bronx,New York
                             </span>
                         </div>
                     </div>

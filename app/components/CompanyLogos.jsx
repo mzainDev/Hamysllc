@@ -3,13 +3,10 @@ import Image from "next/image";
 
 const CompanyLogos = () => {
     const logos = [
-        { id: 1, src: "/Logo2.png", alt: "Zapier" },
-        { id: 2, src: "/Logo3.png", alt: "Pipedrive" },
-        { id: 3, src: "/Logo4.png", alt: "CIB Bank" },
-        { id: 4, src: "/Logo5.png", alt: "7" },
-        { id: 5, src: "/Logo6.png", alt: "Burnt Toast" },
-        { id: 6, src: "/Logo7.png", alt: "PandaDoc" },
-        { id: 7, src: "/Logo8.png", alt: "Moz" },
+        { id: 1, src: "/walmart1.png", alt: "Walmart" },
+        { id: 2, src: "/ebay1.png", alt: "ebay" },
+        { id: 3, src: "/amazon1.png", alt: "Amazon" },
+        { id: 4, src: "/shopify1.png", alt: "Shopify" },
     ];
 
     return (
@@ -26,18 +23,19 @@ const CompanyLogos = () => {
                 </div>
 
                 <div className="max-w-7xl mx-auto bg-white rounded-2xl shadow-lg p-6 md:p-10 border border-gray-100">
-                    <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 place-items-center">
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-8 place-items-center">
                         {logos.map((logo) => (
                             <div
                                 key={logo.id}
-                                className="flex justify-center items-center p-5 rounded-xl hover:bg-gray-50 transition-all duration-300 group"
+                                className="flex justify-center items-center p-4 rounded-xl hover:bg-gray-50 transition-all duration-300 group"
                             >
                                 <Image
-                                    src={logo.src || "/placeholder.png"}
+                                    src={logo.src}
                                     alt={logo.alt}
-                                    width={100}
-                                    height={100}
-                                    className="h-14 md:h-16 w-auto opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-300"
+                                    width={150}
+                                    height={80}
+                                    className="h-auto w-[120px] object-contain opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-300"
+                                    priority
                                 />
                             </div>
                         ))}

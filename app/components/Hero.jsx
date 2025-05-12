@@ -73,22 +73,14 @@ const Hero = () => {
                 </div>
 
                 <div className="container relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-12">
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                    <div className="grid grid-cols-2 md:grid-cols-2 gap-4 text-center">
                         <div className="bg-[#1e3a8a] bg-opacity-40 p-4 rounded-lg backdrop-blur-sm shadow-lg border border-gray-700">
-                            <div className="text-2xl font-bold">50+</div>
-                            <div className="text-gray-200">Products</div>
-                        </div>
-                        <div className="bg-[#1e3a8a] bg-opacity-40 p-4 rounded-lg backdrop-blur-sm shadow-lg border border-gray-700">
-                            <div className="text-2xl font-bold">10+</div>
-                            <div className="text-gray-200">Countries</div>
-                        </div>
-                        <div className="bg-[#1e3a8a] bg-opacity-40 p-4 rounded-lg backdrop-blur-sm shadow-lg border border-gray-700">
-                            <div className="text-2xl font-bold">4.8/5</div>
+                            <div className="text-2xl font-bold">4.9/5</div>
                             <div className="text-gray-200">Customer Rating</div>
                         </div>
                         <div className="bg-[#1e3a8a] bg-opacity-40 p-4 rounded-lg backdrop-blur-sm shadow-lg border border-gray-700">
                             <div className="text-2xl font-bold">24/7</div>
-                            <div className="text-gray-200">Support</div>
+                            <div className="text-gray-200">Customer Support</div>
                         </div>
                     </div>
                 </div>

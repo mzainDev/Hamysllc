@@ -27,19 +27,19 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-start space-x-3">
                 <MapPin size={18} className="text-[#64b5f6] mt-1 flex-shrink-0" />
-                <span className="text-gray-300">Fort Worth, TX</span>
+                <span className="text-gray-300">Bronx,New York</span>
               </div>
               <div className="flex items-start space-x-3">
                 <Phone size={18} className="text-[#64b5f6] mt-1 flex-shrink-0" />
-                <span className="text-gray-300">+817-986-9786</span>
+                <span className="text-gray-300">929-756-9365</span>
               </div>
               <div className="flex items-start space-x-3">
                 <Mail size={18} className="text-[#64b5f6] mt-1 flex-shrink-0" />
-                <span className="text-gray-300">info@hamysllc.com</span>
+                <span className="text-gray-300">SALES@HAMYSLLCWHOLESALE.COM</span>
               </div>
               <div className="flex items-start space-x-3">
                 <Clock size={18} className="text-[#64b5f6] mt-1 flex-shrink-0" />
-                <span className="text-gray-300">Mon to Sat: 9am - 5pm</span>
+                <span className="text-gray-300">Monday to Friday: 9am - 5pm</span>
               </div>
             </div>
           </div>

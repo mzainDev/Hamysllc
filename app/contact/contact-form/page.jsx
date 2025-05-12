@@ -22,7 +22,7 @@ const ContactForm = () => {
                             <div>
                                 <h4 className="font-semibold text-white">Address</h4>
                                 <p className="text-gray-300">
-                                    5101 Bellefontaine Dr Arlington TX 76017
+                                    432 Doris St, bronx, New York, 10462 UNITED STATE
                                 </p>
                             </div>
                         </div>
@@ -31,8 +31,16 @@ const ContactForm = () => {
                             <div>
                                 <h4 className="font-semibold text-white">Phone</h4>
                                 <p className="text-gray-300">
-                                    Mobile: 817-986-9786 <br />
-                                    Hotline: +(84) 456-6789
+                                    Mobile: 929-756-9365 <br />
+                                </p>
+                            </div>
+                        </div>
+                        <div className="flex items-start gap-4">
+                            <Mail className="h-6 w-6 text-[#93c5fd]" />
+                            <div>
+                                <h4 className="font-semibold text-white">Mail</h4>
+                                <p className="text-gray-300">
+                                    SALES@HAMYSLLCWHOLESALE.COM <br />
                                 </p>
                             </div>
                         </div>
@@ -41,8 +49,8 @@ const ContactForm = () => {
                             <div>
                                 <h4 className="font-semibold text-white">Working Time</h4>
                                 <p className="text-gray-300">
-                                    Monday-Friday: 9:00 - 22:00 <br />
-                                    Saturday-Sunday: 9:00 - 21:00
+                                    Monday-Friday: 9am - 5pm <br />
+                                    Saturday-Sunday: OFF
                                 </p>
                             </div>
                         </div>
