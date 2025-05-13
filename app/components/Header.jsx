@@ -65,10 +65,10 @@ const Header = () => {
             </Link>
             <Link
               href="/"
-              className="flex items-center justify-center bg-[#64b5f6] text-white p-2 rounded-full relative hover:bg-[#3b82f6] transition-colors"
+              className="flex items-center justify-center bg-[#64b5f6] p-2 rounded-full relative hover:bg-[#3b82f6] transition-colors"
             >
               <ShoppingCart size={20} />
-              <span className="absolute -top-1 -right-1 bg-white text-[#0f172a] text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center">3</span>
+              <span className="absolute -top-1 -right-1 text-[#0f172a] text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center"></span>
             </Link>
 
             {/* Mobile menu button */}

@@ -108,7 +108,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <Link
-                  href="/categories/home"
+                  href="/categories/home-kitchen"
                   className="text-gray-300 hover:text-white transition-colors flex items-center"
                 >
                   <ArrowRight size={14} className="mr-2 text-[#64b5f6]" />
@@ -117,14 +117,67 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/categories/beauty"
+                  href="/categories/beauty-health"
                   className="text-gray-300 hover:text-white transition-colors flex items-center"
                 >
                   <ArrowRight size={14} className="mr-2 text-[#64b5f6]" />
                   Beauty & Health
                 </Link>
               </li>
-
+              <li>
+                <Link
+                  href="/categories/party-supplies"
+                  className="text-gray-300 hover:text-white transition-colors flex items-center"
+                >
+                  <ArrowRight size={14} className="mr-2 text-[#64b5f6]" />
+                  Party Supplies
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/categories/disposable-items"
+                  className="text-gray-300 hover:text-white transition-colors flex items-center"
+                >
+                  <ArrowRight size={14} className="mr-2 text-[#64b5f6]" />
+                  Disposable Items
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/categories/laundry-items"
+                  className="text-gray-300 hover:text-white transition-colors flex items-center"
+                >
+                  <ArrowRight size={14} className="mr-2 text-[#64b5f6]" />
+                  Laundry Items
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/categories/toys"
+                  className="text-gray-300 hover:text-white transition-colors flex items-center"
+                >
+                  <ArrowRight size={14} className="mr-2 text-[#64b5f6]" />
+                  Toys
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/categories/school-supplies"
+                  className="text-gray-300 hover:text-white transition-colors flex items-center"
+                >
+                  <ArrowRight size={14} className="mr-2 text-[#64b5f6]" />
+                  School Supplies
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/categories/general-merchandise"
+                  className="text-gray-300 hover:text-white transition-colors flex items-center"
+                >
+                  <ArrowRight size={14} className="mr-2 text-[#64b5f6]" />
+                  General Merchandise
+                </Link>
+              </li>
             </ul>
           </div>
 

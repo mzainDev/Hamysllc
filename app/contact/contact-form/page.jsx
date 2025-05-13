@@ -44,14 +44,14 @@ const ContactForm = () => {
                                 </p>
                             </div>
                         </div>
-                        
+
                         <div className="flex items-start gap-4">
                             <Mail className="h-6 w-6 text-[#93c5fd]" />
                             <div>
                                 <h4 className="font-semibold text-white">Working Time</h4>
                                 <p className="text-gray-300">
                                     Monday to Friday: 9am - 5pm <br />
-                                    Saturday to Sunday: OFF
+                                    Saturday & Sunday: Closed
                                 </p>
                             </div>
                         </div>
